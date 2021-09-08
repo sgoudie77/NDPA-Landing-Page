@@ -12,6 +12,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
+    background: #000;
     background-image: url(img/bg.jpg);
     background-size: cover;
     background-position: bottom right;
@@ -203,10 +204,13 @@ header .navbar li a:hover {
     .content .title a {
         padding: 5px 12px;
     }
+    .social li a {
+        margin-right: 15px;
+    }
 }
 @media (max-width: 799px) {
     .container {
-        background-position: -400px;
+        background-size: contain;
     }
 }
 /* responsive styles end here */
