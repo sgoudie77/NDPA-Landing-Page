@@ -14,7 +14,7 @@
     min-height: 100vh;
     background-image: url(img/bg.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom right;
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
@@ -154,11 +154,11 @@ header .navbar li a:hover {
     .container {
         padding: 40px;
     }
-    .content .contentBx h2 {
+    .content .title h2 {
         font-size: 2.5em;
     }
-    .content .contentBx p {
-        font-size: 1em;
+    .content .title p {
+        font-size: .9em;
     }
     header .navbar {
         position: fixed;
@@ -196,6 +196,9 @@ header .navbar li a:hover {
         background-position: center;
         background-size: 25px;
         background-repeat: no-repeat;
+    }
+    .content .title a {
+        padding: 5px 12px;
     }
 }
 @media (max-width: 799px) {
