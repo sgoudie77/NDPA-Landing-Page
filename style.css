@@ -155,7 +155,7 @@ header .navbar li a:hover {
         padding: 40px;
     }
     .content .title h2 {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
     .content .title p {
         font-size: .8em;
@@ -197,13 +197,16 @@ header .navbar li a:hover {
         background-size: 25px;
         background-repeat: no-repeat;
     }
+    .content .title p {
+        margin: 10px 0;
+    }
     .content .title a {
         padding: 5px 12px;
     }
 }
 @media (max-width: 799px) {
     .container {
-        background-position: -425px;
+        background-position: -400px;
     }
 }
 /* responsive styles end here */
